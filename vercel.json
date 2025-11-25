@@ -11,8 +11,7 @@
       "dest": "/api/terabox.js"
     },
     {
-      "src": "/terabox",
-      "methods": ["GET"], 
+      "src": "/",
       "dest": "/api/terabox.js"
     }
   ]
