@@ -1,15 +1,7 @@
 {
   "name": "terabox-downloader-api",
   "version": "1.0.0",
-  "description": "TeraBox Downloader API for Vercel",
-  "main": "api/terabox.js",
-  "scripts": {
-    "start": "vercel dev"
-  },
   "dependencies": {
     "node-fetch": "^2.6.7"
-  },
-  "engines": {
-    "node": ">=14.x"
   }
 }
