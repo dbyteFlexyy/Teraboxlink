@@ -1,1 +1,19 @@
-
+{
+  "functions": {
+    "api/terabox.js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/terabox",
+      "methods": ["GET"],
+      "dest": "/api/terabox.js"
+    },
+    {
+      "src": "/terabox",
+      "methods": ["GET"], 
+      "dest": "/api/terabox.js"
+    }
+  ]
+}
